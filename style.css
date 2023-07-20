@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text-flex-container{
+width: 1280px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+padding: 50px;
+background-color: black;
+
+}
+
+.text-box{
+
+    height: auto;
+    background-color: azure;
+    padding: 20px;
+    margin: 5px;
+    
+}
+
+
+/* image flex test  */
+
+.image-flex-container{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.image-box img{
+    width: 100%;
+}
